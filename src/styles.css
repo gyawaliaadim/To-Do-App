@@ -1,0 +1,61 @@
+@import "tailwindcss";
+:root{
+  --primaryColor:black;
+  --secondaryColor: #d4d4d4;
+  --tertiaryColor: #b3b3b3;
+  --quaternaryColor: #525252;
+}
+.hover-style-heading {
+    @apply hover:bg-[var(--secondaryColor)] rounded-full cursor-pointer hover:text-[var(--quanternaryColor)] text-[var(--secondaryColor)];
+}
+
+
+.primaryBackgroundColor {
+  @apply bg-[var(--primaryColor)];
+}
+
+.secondaryBackgroundColor {
+  @apply bg-[var(--secondaryColor)];
+}
+
+.tertiaryBackgroundColor {
+  @apply bg-[var(--tertiaryColor)];
+}
+
+.quaternaryBackgroundColor {
+  @apply bg-[var(--quaternaryColor)];
+}
+
+.primaryTextColor {
+  @apply text-[var(--primaryColor)];
+}
+
+.secondaryTextColor {
+  @apply text-[var(--secondaryColor)];
+}
+
+.tertiaryTextColor {
+  @apply text-[var(--tertiaryColor)];
+}
+
+.quaternaryTextColor {
+  @apply text-[var(--quaternaryColor)];
+}
+
+
+h1{
+  @apply text-4xl
+}
+
+h2 {
+  @apply text-2xl /* 1.5rem = 24px */;
+}
+
+h3{
+  @apply text-[1rem]
+}
+
+.center{
+  @apply flex justify-center items-center;
+}
+
